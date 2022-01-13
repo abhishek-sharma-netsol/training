@@ -1,0 +1,11 @@
+C:\Users\abhishek.sharma\abhishek\training\dotnet\BasicLearning\bin\Debug\netcoreapp3.1\BasicLearning.exe
+C:\Users\abhishek.sharma\abhishek\training\dotnet\BasicLearning\bin\Debug\netcoreapp3.1\BasicLearning.deps.json
+C:\Users\abhishek.sharma\abhishek\training\dotnet\BasicLearning\bin\Debug\netcoreapp3.1\BasicLearning.runtimeconfig.json
+C:\Users\abhishek.sharma\abhishek\training\dotnet\BasicLearning\bin\Debug\netcoreapp3.1\BasicLearning.runtimeconfig.dev.json
+C:\Users\abhishek.sharma\abhishek\training\dotnet\BasicLearning\bin\Debug\netcoreapp3.1\BasicLearning.dll
+C:\Users\abhishek.sharma\abhishek\training\dotnet\BasicLearning\bin\Debug\netcoreapp3.1\BasicLearning.pdb
+C:\Users\abhishek.sharma\abhishek\training\dotnet\BasicLearning\obj\Debug\netcoreapp3.1\BasicLearning.csprojAssemblyReference.cache
+C:\Users\abhishek.sharma\abhishek\training\dotnet\BasicLearning\obj\Debug\netcoreapp3.1\BasicLearning.AssemblyInfoInputs.cache
+C:\Users\abhishek.sharma\abhishek\training\dotnet\BasicLearning\obj\Debug\netcoreapp3.1\BasicLearning.AssemblyInfo.cs
+C:\Users\abhishek.sharma\abhishek\training\dotnet\BasicLearning\obj\Debug\netcoreapp3.1\BasicLearning.dll
+C:\Users\abhishek.sharma\abhishek\training\dotnet\BasicLearning\obj\Debug\netcoreapp3.1\BasicLearning.pdb

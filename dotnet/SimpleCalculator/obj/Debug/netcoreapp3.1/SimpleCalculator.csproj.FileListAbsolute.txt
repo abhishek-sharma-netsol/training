@@ -1,0 +1,11 @@
+C:\Users\abhishek.sharma\abhishek\training\dotnet\SimpleCalculator\bin\Debug\netcoreapp3.1\SimpleCalculator.exe
+C:\Users\abhishek.sharma\abhishek\training\dotnet\SimpleCalculator\bin\Debug\netcoreapp3.1\SimpleCalculator.deps.json
+C:\Users\abhishek.sharma\abhishek\training\dotnet\SimpleCalculator\bin\Debug\netcoreapp3.1\SimpleCalculator.runtimeconfig.json
+C:\Users\abhishek.sharma\abhishek\training\dotnet\SimpleCalculator\bin\Debug\netcoreapp3.1\SimpleCalculator.runtimeconfig.dev.json
+C:\Users\abhishek.sharma\abhishek\training\dotnet\SimpleCalculator\bin\Debug\netcoreapp3.1\SimpleCalculator.dll
+C:\Users\abhishek.sharma\abhishek\training\dotnet\SimpleCalculator\bin\Debug\netcoreapp3.1\SimpleCalculator.pdb
+C:\Users\abhishek.sharma\abhishek\training\dotnet\SimpleCalculator\obj\Debug\netcoreapp3.1\SimpleCalculator.csprojAssemblyReference.cache
+C:\Users\abhishek.sharma\abhishek\training\dotnet\SimpleCalculator\obj\Debug\netcoreapp3.1\SimpleCalculator.AssemblyInfoInputs.cache
+C:\Users\abhishek.sharma\abhishek\training\dotnet\SimpleCalculator\obj\Debug\netcoreapp3.1\SimpleCalculator.AssemblyInfo.cs
+C:\Users\abhishek.sharma\abhishek\training\dotnet\SimpleCalculator\obj\Debug\netcoreapp3.1\SimpleCalculator.dll
+C:\Users\abhishek.sharma\abhishek\training\dotnet\SimpleCalculator\obj\Debug\netcoreapp3.1\SimpleCalculator.pdb
