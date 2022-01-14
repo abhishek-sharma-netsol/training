@@ -1,0 +1,11 @@
+C:\Users\abhishek.sharma\abhishek\training\dotnet\AtmMachine\bin\Debug\netcoreapp3.1\AtmMachine.exe
+C:\Users\abhishek.sharma\abhishek\training\dotnet\AtmMachine\bin\Debug\netcoreapp3.1\AtmMachine.deps.json
+C:\Users\abhishek.sharma\abhishek\training\dotnet\AtmMachine\bin\Debug\netcoreapp3.1\AtmMachine.runtimeconfig.json
+C:\Users\abhishek.sharma\abhishek\training\dotnet\AtmMachine\bin\Debug\netcoreapp3.1\AtmMachine.runtimeconfig.dev.json
+C:\Users\abhishek.sharma\abhishek\training\dotnet\AtmMachine\bin\Debug\netcoreapp3.1\AtmMachine.dll
+C:\Users\abhishek.sharma\abhishek\training\dotnet\AtmMachine\bin\Debug\netcoreapp3.1\AtmMachine.pdb
+C:\Users\abhishek.sharma\abhishek\training\dotnet\AtmMachine\obj\Debug\netcoreapp3.1\AtmMachine.csprojAssemblyReference.cache
+C:\Users\abhishek.sharma\abhishek\training\dotnet\AtmMachine\obj\Debug\netcoreapp3.1\AtmMachine.AssemblyInfoInputs.cache
+C:\Users\abhishek.sharma\abhishek\training\dotnet\AtmMachine\obj\Debug\netcoreapp3.1\AtmMachine.AssemblyInfo.cs
+C:\Users\abhishek.sharma\abhishek\training\dotnet\AtmMachine\obj\Debug\netcoreapp3.1\AtmMachine.dll
+C:\Users\abhishek.sharma\abhishek\training\dotnet\AtmMachine\obj\Debug\netcoreapp3.1\AtmMachine.pdb
