@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jFQArw4+Qg0QrcwqqNGczT1mXofx/9Ublrl8CvOy+nFwoR/uQMtKHSwFmLU+9mz4JR9BJTm61seSEMIiYvWv7A==",
+  "success": true,
+  "projectFilePath": "/home/abhishek-netsol/git/training/dotnet/UserDefinedException/UserDefinedException.csproj",
+  "expectedPackageFiles": [
+    "/home/abhishek-netsol/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.0/microsoft.aspnetcore.app.ref.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

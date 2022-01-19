@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8fCC+ac2tyDiQjxlQ8KjNUvJvBvVRX6vYmbPWBm9tUnQjoSkcXv2bFu+IUWu+tnOT3AFGQ/+/o8Q2Yqcrw+BvQ==",
+  "success": true,
+  "projectFilePath": "/home/abhishek-netsol/git/training/dotnet/Delegates/Delegates.csproj",
+  "expectedPackageFiles": [
+    "/home/abhishek-netsol/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.0/microsoft.aspnetcore.app.ref.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
