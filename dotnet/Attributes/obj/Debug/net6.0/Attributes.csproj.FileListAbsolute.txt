@@ -1,0 +1,5 @@
+/home/abhishek-netsol/git/training/dotnet/Attributes/obj/Debug/net6.0/Attributes.csproj.AssemblyReference.cache
+/home/abhishek-netsol/git/training/dotnet/Attributes/obj/Debug/net6.0/Attributes.GeneratedMSBuildEditorConfig.editorconfig
+/home/abhishek-netsol/git/training/dotnet/Attributes/obj/Debug/net6.0/Attributes.AssemblyInfoInputs.cache
+/home/abhishek-netsol/git/training/dotnet/Attributes/obj/Debug/net6.0/Attributes.AssemblyInfo.cs
+/home/abhishek-netsol/git/training/dotnet/Attributes/obj/Debug/net6.0/Attributes.csproj.CoreCompileInputs.cache

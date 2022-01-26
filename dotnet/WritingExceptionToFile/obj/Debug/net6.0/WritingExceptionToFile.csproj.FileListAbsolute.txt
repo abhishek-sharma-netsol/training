@@ -1,0 +1,15 @@
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/bin/Debug/net6.0/WritingExceptionToFile
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/bin/Debug/net6.0/WritingExceptionToFile.deps.json
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/bin/Debug/net6.0/WritingExceptionToFile.runtimeconfig.json
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/bin/Debug/net6.0/WritingExceptionToFile.dll
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/bin/Debug/net6.0/ref/WritingExceptionToFile.dll
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/bin/Debug/net6.0/WritingExceptionToFile.pdb
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/obj/Debug/net6.0/WritingExceptionToFile.csproj.AssemblyReference.cache
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/obj/Debug/net6.0/WritingExceptionToFile.GeneratedMSBuildEditorConfig.editorconfig
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/obj/Debug/net6.0/WritingExceptionToFile.AssemblyInfoInputs.cache
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/obj/Debug/net6.0/WritingExceptionToFile.AssemblyInfo.cs
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/obj/Debug/net6.0/WritingExceptionToFile.csproj.CoreCompileInputs.cache
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/obj/Debug/net6.0/WritingExceptionToFile.dll
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/obj/Debug/net6.0/ref/WritingExceptionToFile.dll
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/obj/Debug/net6.0/WritingExceptionToFile.pdb
+/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/obj/Debug/net6.0/WritingExceptionToFile.genruntimeconfig.cache

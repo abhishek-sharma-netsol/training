@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/WritingExceptionToFile.csproj": {}
+  },
+  "projects": {
+    "/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/WritingExceptionToFile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/WritingExceptionToFile.csproj",
+        "projectName": "WritingExceptionToFile",
+        "projectPath": "/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/WritingExceptionToFile.csproj",
+        "packagesPath": "/home/abhishek-netsol/.nuget/packages/",
+        "outputPath": "/home/abhishek-netsol/git/training/dotnet/WritingExceptionToFile/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/abhishek-netsol/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.0, 6.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
