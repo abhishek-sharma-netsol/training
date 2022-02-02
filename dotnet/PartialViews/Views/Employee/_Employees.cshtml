@@ -1,0 +1,22 @@
+@model List<Employee>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach(var item in Model){
+      <tr>
+        <th scope="row">
+          <a asp-controller="Employee" asp-action="Index" asp-route-id="@item.Id">@item.Id</a>
+        </th>
+        <td>@item.EmployeeName</td>
+        <td>@item.EmployeeAge</td>
+      </tr>
+      }
+    </tbody>
+  </table>

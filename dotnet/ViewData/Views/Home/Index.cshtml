@@ -1,0 +1,45 @@
+﻿@{
+ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Title</title>
+</head>
+
+<body>
+  @{ var employee = ViewData["Employee"] as ViewData.Models.Employee; }
+  <h2>@ViewData["Header"]</h2>
+  <table style="font-family: Arial, Helvetica, sans-serif;">
+    <tr>
+      <td>Employee Id:</td>
+      <td>@employee.EmployeeId</td>
+    </tr>
+    <tr>
+      <td>Name:</td>
+      <td>@employee.Name</td>
+    </tr>
+    <tr>
+      <td>Gender:</td>
+      <td>@employee.Gender</td>
+    </tr>
+    <tr>
+      <td>City:</td>
+      <td>@employee.City</td>
+    </tr>
+    <tr>
+      <td>Salary:</td>
+      <td>@employee.Salary</td>
+    </tr>
+    <tr>
+      <td>Address:</td>
+      <td>@employee.Address</td>
+    </tr>
+  </table>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+@{ ViewData["Title"] = "Employees"; }
+@model EmployeeViewModel
+<br>
+<h1>List of Employees</h1>
+<br>
+
+@*Day1
+<b>Name: @Model.EmployeeName</b>
+<br>
+<b>DOB: @Model.EmployeeDob</b>
+<br>
+<b>Age: @Model.EmployeeAge</b>
+<br>
+<b>Salary: @Model.EmployeeSalary</b>*@
+@Html.Partial("_Employees",Model.Employee)
