@@ -1,0 +1,28 @@
+﻿@{
+ViewData["Title"] = "Home Page";
+}
+@*model DateTime? *@
+@*
+<!--<div class="row">-->
+<!--  <div class="col-md-3">-->
+<!--    <h3>Current Time: @DateTime.Now.ToString()</h3>-->
+<!--  </div>-->
+<!--  <div class="col-md-3">-->
+<!--    <h3>Cached Time: @Model.Value.ToString()</h3>-->
+<!--  </div>-->
+<!--</div>-->
+*@
+
+@using (Html.BeginForm("RemoveCache","Home")){
+<div class="row">
+  <div class="col-md-3">
+    <h3>Current Time: @DateTime.Now.ToString()</h3>
+  </div>
+  <div class="col-md-3">
+    <h3>Cache Time: @(Model!=null ? @Model.ToString() :"Cache is not available")</h3>
+  </div>
+  <div class="col-md-3">
+    <input type="submit" class="btn btn-danger" value="Remove">
+  </div>
+</div>
+}
