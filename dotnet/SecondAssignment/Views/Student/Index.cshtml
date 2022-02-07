@@ -1,0 +1,33 @@
+@model List<SecondAssignment.Models.Student>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Branch</th>
+        <th scope="col">Section</th>
+        <th scope="col">Gender</th>
+        <th scope="col">Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach ( var student in Model){
+      <tr>
+        <th scope="row">
+          <a asp-controller="Student" asp-action="Details" asp-route-id="@student.Id">@student.Id</a>
+        </th>
+        <td>@student.Name</td>
+        <td>@student.Branch</td>
+        <td>@student.Section</td>
+        <td>@student.Gender</td>
+        <td>@student.Age</td>
+        <td>
+          <a asp-controller="Student" asp-action="Edit" asp-route-id="@student.Id" class="btn btn-secondary">Edit</a>
+          <a asp-controller="Student" asp-action="Delete" asp-route-id="@student.Id" class="btn btn-danger">Delete</a>
+        </td>
+      </tr>
+      }
+    </tbody>
+  </table>
+  <a asp-controller="Student" asp-action="Create" class="btn btn-primary">Add</a>

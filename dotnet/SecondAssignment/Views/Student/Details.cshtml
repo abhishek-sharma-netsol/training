@@ -1,0 +1,31 @@
+@model SecondAssignment.Models.Student
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <title>Details</title>
+</head>
+
+<body>
+
+  <div>
+    <dl class="row">
+  </div>
+  <div class="card border-primary mb-3" style="max-width: 18rem;">
+    <div class="card-header">@Model.Name</div>
+    <div class="card-body text-primary">
+      <h5 class="card-title">@Model.Id</h5>
+      <p class="card-text">@Model.Name</p>
+      <p class="card-text">@Model.Branch</p>
+      <p class="card-text">@Model.Section</p>
+      <p class="card-text">@Model.Gender</p>
+      <p class="card-text">@Model.Age</p>
+      <a asp-controller="Student" asp-action="Index" class="btn btn-primary">Go to Index</a>
+    </div>
+  </div>
+</body>
+
+</html>
