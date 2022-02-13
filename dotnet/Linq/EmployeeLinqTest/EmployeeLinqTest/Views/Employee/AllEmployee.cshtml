@@ -1,0 +1,24 @@
+﻿@using EmployeeLinqTest.Models
+@model IEnumerable<EmployeeModel>
+
+
+
+  <div class="containers">
+    <h3> All Employees</h3>
+    <div class="row">
+
+      @foreach(var emp in Model)
+      {
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h1 class="card-title">@emp.EmpId</h1>
+          <h4 class="card-subtitle mb-2 text-muted">@emp.EmpName</h4>
+          <p class="card-text">Inside this you find all the details of @emp.EmpName Employee.</p>
+          <a href="/Employee/EmployeeDetails/@emp.EmpId" class="card-link">View</a>
+          @* <a href="#" class="card-link">Another link</a>*@
+        </div>
+      </div>
+      }
+
+    </div>
+  </div>

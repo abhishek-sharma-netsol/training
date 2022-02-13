@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "i/ksmflVH3iJHhbhpeCU9QNKseIkS0bw1dWOVdGeX0GB5DdlZFyzPmQUFSFD1cwgtz/oDEQzxhA1LgjfhawsYg==",
+  "success": true,
+  "projectFilePath": "/home/abhishek/netsol/git/training/Linq/BasicLearning/BasicLearning.csproj",
+  "expectedPackageFiles": [
+    "/home/abhishek/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.0/microsoft.aspnetcore.app.ref.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

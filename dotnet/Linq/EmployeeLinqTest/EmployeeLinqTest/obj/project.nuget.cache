@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QuNCEFcZukVXA+SDNy0rsePPH195i1a226RAX5M20+2Jo99B1c8EzDotsyrATd0wKahq+tEBK6vzqwxswujSqw==",
+  "success": true,
+  "projectFilePath": "/home/abhishek/netsol/git/training/Linq/EmployeeLinqTest/EmployeeLinqTest/EmployeeLinqTest.csproj",
+  "expectedPackageFiles": [
+    "/home/abhishek/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/home/abhishek/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.21/microsoft.netcore.app.host.linux-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+/home/abhishek/netsol/git/training/Linq/BasicLearning/bin/Debug/net6.0/BasicLearning
+/home/abhishek/netsol/git/training/Linq/BasicLearning/bin/Debug/net6.0/BasicLearning.deps.json
+/home/abhishek/netsol/git/training/Linq/BasicLearning/bin/Debug/net6.0/BasicLearning.runtimeconfig.json
+/home/abhishek/netsol/git/training/Linq/BasicLearning/bin/Debug/net6.0/BasicLearning.dll
+/home/abhishek/netsol/git/training/Linq/BasicLearning/bin/Debug/net6.0/ref/BasicLearning.dll
+/home/abhishek/netsol/git/training/Linq/BasicLearning/bin/Debug/net6.0/BasicLearning.pdb
+/home/abhishek/netsol/git/training/Linq/BasicLearning/obj/Debug/net6.0/BasicLearning.csproj.AssemblyReference.cache
+/home/abhishek/netsol/git/training/Linq/BasicLearning/obj/Debug/net6.0/BasicLearning.GeneratedMSBuildEditorConfig.editorconfig
+/home/abhishek/netsol/git/training/Linq/BasicLearning/obj/Debug/net6.0/BasicLearning.AssemblyInfoInputs.cache
+/home/abhishek/netsol/git/training/Linq/BasicLearning/obj/Debug/net6.0/BasicLearning.AssemblyInfo.cs
+/home/abhishek/netsol/git/training/Linq/BasicLearning/obj/Debug/net6.0/BasicLearning.csproj.CoreCompileInputs.cache
+/home/abhishek/netsol/git/training/Linq/BasicLearning/obj/Debug/net6.0/BasicLearning.dll
+/home/abhishek/netsol/git/training/Linq/BasicLearning/obj/Debug/net6.0/ref/BasicLearning.dll
+/home/abhishek/netsol/git/training/Linq/BasicLearning/obj/Debug/net6.0/BasicLearning.pdb
+/home/abhishek/netsol/git/training/Linq/BasicLearning/obj/Debug/net6.0/BasicLearning.genruntimeconfig.cache

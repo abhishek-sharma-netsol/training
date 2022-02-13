@@ -1,0 +1,10 @@
+@model Student
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">@Model.Name</h5>
+    <h6 class="card-subtitle mb-2 text-muted">@Model.Age</h6>
+    <h6 class="card-subtitle mb-2 text-muted">@Model.FatherName</h6>
+    <h6 class="card-subtitle mb-2 text-muted">@Model.MotherName</h6>
+    <a asp-controller="Student" asp-action="Index" class=" card-link">Back to List</a>
+  </div>
+</div>
