@@ -1721,7 +1721,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0",
+          "NS.EMS.Model": "1.0.0"
         },
         "compile": {
           "bin/placeholder/NS.EMS.Data.dll": {}
@@ -6280,11 +6281,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj",
+      "projectUniqueName": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj",
       "projectName": "NS.EMS.Repository",
-      "projectPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj",
+      "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj",
       "packagesPath": "/home/abhishek/.nuget/packages/",
-      "outputPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Repository/obj/",
+      "outputPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/abhishek/.nuget/NuGet/NuGet.Config"
@@ -6298,11 +6299,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj": {
-              "projectPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj"
+            "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj": {
+              "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj"
             },
-            "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj": {
-              "projectPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj"
+            "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj": {
+              "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj"
             }
           }
         }

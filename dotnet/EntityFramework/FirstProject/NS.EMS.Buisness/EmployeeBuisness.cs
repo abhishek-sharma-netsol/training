@@ -1,5 +1,7 @@
 using NS.EMS.Repository;
 using NS.EMS.Model;
+using System.Collections.Generic;
+using NS.EMS.Data.Entities;
 
 namespace NS.EMS.Buisness
 {
@@ -15,6 +17,15 @@ namespace NS.EMS.Buisness
     {
       return _IEmployeeRepo.AddEmployee(employeeModel);
     }
+
+    public List<EmployeeDeptModel> Details()
+    {
+      return _IEmployeeRepo.Details();
+    }
     
+    public void Edit(int id, EmployeeModel employeeModel)
+    {
+      _IEmployeeRepo.Edit(id,employeeModel);
+    }
   }
 }

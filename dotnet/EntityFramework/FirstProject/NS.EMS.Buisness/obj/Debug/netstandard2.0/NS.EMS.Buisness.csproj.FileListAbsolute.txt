@@ -13,3 +13,10 @@
 /home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Buisness/obj/Debug/netstandard2.0/NS.EMS.Buisness.csproj.CopyComplete
 /home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Buisness/obj/Debug/netstandard2.0/NS.EMS.Buisness.dll
 /home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Buisness/obj/Debug/netstandard2.0/NS.EMS.Buisness.pdb
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Buisness/bin/Debug/netstandard2.0/NS.EMS.Buisness.dll
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Buisness/bin/Debug/netstandard2.0/NS.EMS.Buisness.pdb
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Buisness/obj/Debug/netstandard2.0/NS.EMS.Buisness.csprojAssemblyReference.cache
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Buisness/obj/Debug/netstandard2.0/NS.EMS.Buisness.AssemblyInfoInputs.cache
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Buisness/obj/Debug/netstandard2.0/NS.EMS.Buisness.AssemblyInfo.cs
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Buisness/obj/Debug/netstandard2.0/NS.EMS.Buisness.dll
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Buisness/obj/Debug/netstandard2.0/NS.EMS.Buisness.pdb

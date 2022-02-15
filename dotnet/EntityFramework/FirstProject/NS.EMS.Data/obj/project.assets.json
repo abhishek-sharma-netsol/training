@@ -1716,6 +1716,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "NS.EMS.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/NS.EMS.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NS.EMS.Model.dll": {}
+        }
       }
     }
   },
@@ -6229,6 +6239,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "NS.EMS.Model/1.0.0": {
+      "type": "project",
+      "path": "../NS.EMS.Model/NS.EMS.Model.csproj",
+      "msbuildProject": "../NS.EMS.Model/NS.EMS.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6236,7 +6251,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 3.1.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.0",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "NS.EMS.Model >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6245,11 +6261,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj",
+      "projectUniqueName": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj",
       "projectName": "NS.EMS.Data",
-      "projectPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj",
+      "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj",
       "packagesPath": "/home/abhishek/.nuget/packages/",
-      "outputPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Data/obj/",
+      "outputPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/abhishek/.nuget/NuGet/NuGet.Config"
@@ -6262,7 +6278,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj": {
+              "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

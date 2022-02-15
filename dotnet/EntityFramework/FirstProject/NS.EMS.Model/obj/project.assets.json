@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj",
+      "projectUniqueName": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj",
       "projectName": "NS.EMS.Model",
-      "projectPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj",
+      "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj",
       "packagesPath": "/home/abhishek/.nuget/packages/",
-      "outputPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Model/obj/",
+      "outputPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/abhishek/.nuget/NuGet/NuGet.Config"

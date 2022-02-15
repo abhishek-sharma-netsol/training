@@ -15,14 +15,29 @@ namespace NS.EMS.WEB.Controllers{
 
     public IActionResult Index()
     {
-      return View();
+      var personsList = _IEmployeeBuisness.Details();
+      return View(personsList);
     }
 
-    [HttpPost]
+        [HttpGet]
+        public IActionResult Create() => View();
+
+        [HttpPost]
     public IActionResult Create(EmployeeModel employeeModel)
     {
-      _IEmployeeBuisness.AddEmployee(employeeModel);
-      return View();
+      var res = _IEmployeeBuisness.AddEmployee(employeeModel);
+      return View("Index");
     }
+
+    public IActionResult Edit(int id)
+    { return View(); }
+
+    [HttpPost]
+    public IActionResult Edit(int id, EmployeeModel employeeModel)
+    { 
+      _IEmployeeBuisness.Edit(id,employeeModel);
+      return View("Index"); 
+    }
+
   }
 }

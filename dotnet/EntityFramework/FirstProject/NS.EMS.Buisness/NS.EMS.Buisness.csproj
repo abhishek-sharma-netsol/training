@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NS.EMS.Repository\NS.EMS.Repository.csproj" />
+    <ProjectReference Include="..\NS.EMS.Data\NS.EMS.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,7 @@
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Model/bin/Debug/netstandard2.0/NS.EMS.Model.dll
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Model/bin/Debug/netstandard2.0/NS.EMS.Model.pdb
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Model/obj/Debug/netstandard2.0/NS.EMS.Model.csprojAssemblyReference.cache
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Model/obj/Debug/netstandard2.0/NS.EMS.Model.AssemblyInfoInputs.cache
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Model/obj/Debug/netstandard2.0/NS.EMS.Model.AssemblyInfo.cs
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Model/obj/Debug/netstandard2.0/NS.EMS.Model.dll
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Model/obj/Debug/netstandard2.0/NS.EMS.Model.pdb

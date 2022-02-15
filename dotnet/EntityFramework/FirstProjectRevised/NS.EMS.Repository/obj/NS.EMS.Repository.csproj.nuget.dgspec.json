@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Repository/NS.EMS.Repository.csproj": {}
+  },
+  "projects": {
+    "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Data/NS.EMS.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Data/NS.EMS.Data.csproj",
+        "projectName": "NS.EMS.Data",
+        "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Data/NS.EMS.Data.csproj",
+        "packagesPath": "/home/abhishek/.nuget/packages/",
+        "outputPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/abhishek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.120/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Model/NS.EMS.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Model/NS.EMS.Model.csproj",
+        "projectName": "NS.EMS.Model",
+        "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Model/NS.EMS.Model.csproj",
+        "packagesPath": "/home/abhishek/.nuget/packages/",
+        "outputPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Model/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/abhishek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.120/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Repository/NS.EMS.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Repository/NS.EMS.Repository.csproj",
+        "projectName": "NS.EMS.Repository",
+        "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Repository/NS.EMS.Repository.csproj",
+        "packagesPath": "/home/abhishek/.nuget/packages/",
+        "outputPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/abhishek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Data/NS.EMS.Data.csproj": {
+                "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Data/NS.EMS.Data.csproj"
+              },
+              "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Model/NS.EMS.Model.csproj": {
+                "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProjectRevised/NS.EMS.Model/NS.EMS.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.120/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

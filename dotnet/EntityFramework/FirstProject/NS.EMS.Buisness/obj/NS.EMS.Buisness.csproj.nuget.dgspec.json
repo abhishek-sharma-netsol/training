@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Buisness/NS.EMS.Buisness.csproj": {}
+    "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Buisness/NS.EMS.Buisness.csproj": {}
   },
   "projects": {
-    "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Buisness/NS.EMS.Buisness.csproj": {
+    "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Buisness/NS.EMS.Buisness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Buisness/NS.EMS.Buisness.csproj",
+        "projectUniqueName": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Buisness/NS.EMS.Buisness.csproj",
         "projectName": "NS.EMS.Buisness",
-        "projectPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Buisness/NS.EMS.Buisness.csproj",
+        "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Buisness/NS.EMS.Buisness.csproj",
         "packagesPath": "/home/abhishek/.nuget/packages/",
-        "outputPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Buisness/obj/",
+        "outputPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Buisness/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/abhishek/.nuget/NuGet/NuGet.Config"
@@ -25,8 +25,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj": {
-                "projectPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj"
+              "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj": {
+                "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj"
+              },
+              "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj": {
+                "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj"
               }
             }
           }
@@ -77,14 +80,14 @@
         }
       }
     },
-    "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj": {
+    "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj",
+        "projectUniqueName": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj",
         "projectName": "NS.EMS.Data",
-        "projectPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj",
+        "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj",
         "packagesPath": "/home/abhishek/.nuget/packages/",
-        "outputPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Data/obj/",
+        "outputPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/abhishek/.nuget/NuGet/NuGet.Config"
@@ -97,7 +100,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj": {
+                "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -146,14 +153,14 @@
         }
       }
     },
-    "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj": {
+    "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj",
+        "projectUniqueName": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj",
         "projectName": "NS.EMS.Model",
-        "projectPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj",
+        "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj",
         "packagesPath": "/home/abhishek/.nuget/packages/",
-        "outputPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Model/obj/",
+        "outputPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/abhishek/.nuget/NuGet/NuGet.Config"
@@ -199,14 +206,14 @@
         }
       }
     },
-    "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj": {
+    "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj",
+        "projectUniqueName": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj",
         "projectName": "NS.EMS.Repository",
-        "projectPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj",
+        "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj",
         "packagesPath": "/home/abhishek/.nuget/packages/",
-        "outputPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Repository/obj/",
+        "outputPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/abhishek/.nuget/NuGet/NuGet.Config"
@@ -220,11 +227,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj": {
-                "projectPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj"
+              "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj": {
+                "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj"
               },
-              "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj": {
-                "projectPath": "/home/abhishek/netsol/git/training/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj"
+              "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj": {
+                "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj"
               }
             }
           }

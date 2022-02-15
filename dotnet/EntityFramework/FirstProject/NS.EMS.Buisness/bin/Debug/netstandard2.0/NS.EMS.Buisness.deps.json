@@ -13,6 +13,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.0",
           "NETStandard.Library": "2.0.3",
+          "NS.EMS.Data": "1.0.0",
           "NS.EMS.Repository": "1.0.0"
         },
         "runtime": {
@@ -1259,29 +1260,6 @@
             "fileVersion": "4.6.24705.1"
           }
         }
-      },
-      "NS.EMS.Data/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0"
-        },
-        "runtime": {
-          "NS.EMS.Data.dll": {}
-        }
-      },
-      "NS.EMS.Model/1.0.0": {
-        "runtime": {
-          "NS.EMS.Model.dll": {}
-        }
-      },
-      "NS.EMS.Repository/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0",
-          "NS.EMS.Data": "1.0.0",
-          "NS.EMS.Model": "1.0.0"
-        },
-        "runtime": {
-          "NS.EMS.Repository.dll": {}
-        }
       }
     }
   },
@@ -2088,21 +2066,6 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
-    },
-    "NS.EMS.Data/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "NS.EMS.Model/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "NS.EMS.Repository/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

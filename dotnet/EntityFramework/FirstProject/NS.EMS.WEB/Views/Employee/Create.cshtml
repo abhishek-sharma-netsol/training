@@ -1,0 +1,73 @@
+@using static NS.EMS.Model.EmployeeModel
+@model NS.EMS.Model.EmployeeModel
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create</title>
+</head>
+
+<body>
+  <h4>Create</h4>
+  <hr>
+
+  @using (Html.BeginForm("Create", "Employee"))
+  {
+  <div class="form-horizontal">
+
+    <div class="form-group">
+      @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-10">
+        @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+      </div>
+    </div>
+
+    <div class="form-group">
+      @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-10">
+        @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+      </div>
+    </div>
+
+    <div class="form-group">
+      @Html.LabelFor(model => model.Age, htmlAttributes: new { @class = "control-label col-md-2" })
+      <div class="col-md-10">
+        @Html.EditorFor(model => model.Age, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.Age, "", new { @class = "text-danger" })
+      </div>
+    </div>
+
+    @*
+    <div class="form-group">
+      <select name="DeptName" id="DeptName" class="form-control">
+        <option>Select Department</option>
+        <option>Dotnet</option>
+        <option>PHP</option>
+      </select>
+    </div>
+    *@
+
+    <div class=" form-group">
+      @Html.DropDownListFor(m => m.DeptName,
+      new SelectList(Enum.GetValues(typeof(Department))), "Select Deptartment")
+    </div>
+
+    <div class="form-group">
+      <div class="col-md-offset-2 col-md-10">
+        <input type="submit" value="Create" class="btn btn-primary" />
+      </div>
+    </div>
+
+  </div>
+  }
+  <div>
+    @Html.ActionLink("Back to List", "Index")
+  </div>
+</body>
+
+</html>
