@@ -18,3 +18,9 @@
 /home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/obj/Debug/netstandard2.0/NS.EMS.Repository.AssemblyInfo.cs
 /home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/obj/Debug/netstandard2.0/NS.EMS.Repository.dll
 /home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/obj/Debug/netstandard2.0/NS.EMS.Repository.pdb
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/bin/Debug/netstandard2.0/NS.EMS.Repository.deps.json
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/bin/Debug/netstandard2.0/NS.EMS.Data.dll
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/bin/Debug/netstandard2.0/NS.EMS.Model.dll
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/bin/Debug/netstandard2.0/NS.EMS.Model.pdb
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/bin/Debug/netstandard2.0/NS.EMS.Data.pdb
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/obj/Debug/netstandard2.0/NS.EMS.Repository.csproj.CopyComplete

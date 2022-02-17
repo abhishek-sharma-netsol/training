@@ -15,9 +15,11 @@ namespace NS.EMS.Repository
       {
 
         var department = context.EmployeeDept.SingleOrDefault(i => i.DeptName == employeeModel.DeptName.ToString());
+
         var firstName = new SqlParameter("@FirstName", employeeModel.FirstName);
         var lastName = new SqlParameter("@LastName", employeeModel.LastName); 
         var age = new SqlParameter("@Age", employeeModel.Age); 
+
         var employeeId = new SqlParameter("@EmployeeId", department.EmployeeId);
       
         // Using Stored Parameter
@@ -50,6 +52,19 @@ namespace NS.EMS.Repository
           personWithId.FirstName = employeeModel.FirstName;
           personWithId.LastName = employeeModel.LastName;
           personWithId.Age = employeeModel.Age;
+          context.SaveChanges();
+        }
+      }
+    }
+    
+    public void Delete(int id, EmployeeModel employeeModel)
+    {
+      using (var context = new EmployeeDBContext())
+      {
+        var personWithId = context.Person.SingleOrDefault(x => x.Id == id);
+        if(personWithId != null)
+        {
+          context.Remove(personWithId);
           context.SaveChanges();
         }
       }

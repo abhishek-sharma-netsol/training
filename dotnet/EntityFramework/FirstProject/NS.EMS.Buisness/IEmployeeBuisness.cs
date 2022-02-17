@@ -9,5 +9,6 @@ namespace NS.EMS.Buisness
     bool AddEmployee(EmployeeModel employeeModel);
     List<EmployeeDeptModel> Details();
     void Edit(int id, EmployeeModel employeeModel);
+    void Delete(int id, EmployeeModel employeeModel);
   }
 }

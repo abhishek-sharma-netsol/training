@@ -10,5 +10,7 @@ namespace NS.EMS.Repository
     List<EmployeeDeptModel> Details();
 
     void Edit(int id, EmployeeModel employeeModel);
+
+    void Delete(int id, EmployeeModel employeeModel);
   }
 }

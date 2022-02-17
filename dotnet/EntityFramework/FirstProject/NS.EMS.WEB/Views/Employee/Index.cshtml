@@ -20,7 +20,8 @@
         <td>@item.Age</td>
         <td>@item.DeptName</td>
         <td>
-          <a asp-controller="Controller" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
+          <a asp-controller="Employee" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
+          <a asp-controller="Employee" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-secondary">Delete</a>
         </td>
       </tr>
       }

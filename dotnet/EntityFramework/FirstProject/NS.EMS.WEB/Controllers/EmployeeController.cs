@@ -19,16 +19,20 @@ namespace NS.EMS.WEB.Controllers{
       return View(personsList);
     }
 
-        [HttpGet]
-        public IActionResult Create() => View();
+    [HttpGet]
+    public IActionResult Create() {
+      return View();
+    }
 
-        [HttpPost]
+    [HttpPost]
     public IActionResult Create(EmployeeModel employeeModel)
     {
       var res = _IEmployeeBuisness.AddEmployee(employeeModel);
-      return View("Index");
+      var result = _IEmployeeBuisness.Details();
+      return View("Index", result);
     }
 
+    [HttpGet]
     public IActionResult Edit(int id)
     { return View(); }
 
@@ -36,7 +40,15 @@ namespace NS.EMS.WEB.Controllers{
     public IActionResult Edit(int id, EmployeeModel employeeModel)
     { 
       _IEmployeeBuisness.Edit(id,employeeModel);
-      return View("Index"); 
+      var result = _IEmployeeBuisness.Details();
+      return View("Index", result); 
+    }
+
+    public IActionResult Delete(int id, EmployeeModel employeeModel)
+    {
+      _IEmployeeBuisness.Delete(id, employeeModel);
+      var result = _IEmployeeBuisness.Details();
+      return View("Index", result);
     }
 
   }

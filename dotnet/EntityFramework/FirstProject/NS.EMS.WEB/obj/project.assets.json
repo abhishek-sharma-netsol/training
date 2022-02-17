@@ -1280,6 +1280,60 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "NS.EMS.Buisness/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0",
+          "NS.EMS.Data": "1.0.0",
+          "NS.EMS.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NS.EMS.Buisness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NS.EMS.Buisness.dll": {}
+        }
+      },
+      "NS.EMS.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0",
+          "NS.EMS.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NS.EMS.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NS.EMS.Data.dll": {}
+        }
+      },
+      "NS.EMS.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/NS.EMS.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NS.EMS.Model.dll": {}
+        }
+      },
+      "NS.EMS.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0",
+          "NS.EMS.Data": "1.0.0",
+          "NS.EMS.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NS.EMS.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NS.EMS.Repository.dll": {}
+        }
       }
     }
   },
@@ -4986,13 +5040,37 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "NS.EMS.Buisness/1.0.0": {
+      "type": "project",
+      "path": "../NS.EMS.Buisness/NS.EMS.Buisness.csproj",
+      "msbuildProject": "../NS.EMS.Buisness/NS.EMS.Buisness.csproj"
+    },
+    "NS.EMS.Data/1.0.0": {
+      "type": "project",
+      "path": "../NS.EMS.Data/NS.EMS.Data.csproj",
+      "msbuildProject": "../NS.EMS.Data/NS.EMS.Data.csproj"
+    },
+    "NS.EMS.Model/1.0.0": {
+      "type": "project",
+      "path": "../NS.EMS.Model/NS.EMS.Model.csproj",
+      "msbuildProject": "../NS.EMS.Model/NS.EMS.Model.csproj"
+    },
+    "NS.EMS.Repository/1.0.0": {
+      "type": "project",
+      "path": "../NS.EMS.Repository/NS.EMS.Repository.csproj",
+      "msbuildProject": "../NS.EMS.Repository/NS.EMS.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore.Design >= 3.1.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.0",
+      "NS.EMS.Buisness >= 1.0.0",
+      "NS.EMS.Data >= 1.0.0",
+      "NS.EMS.Model >= 1.0.0",
+      "NS.EMS.Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5001,11 +5079,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/abhishek/netsol/code/training/dotnet/EntityFramework/FirstProject/NS.EMS.WEB/NS.EMS.WEB.csproj",
+      "projectUniqueName": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.WEB/NS.EMS.WEB.csproj",
       "projectName": "NS.EMS.WEB",
-      "projectPath": "/home/abhishek/netsol/code/training/dotnet/EntityFramework/FirstProject/NS.EMS.WEB/NS.EMS.WEB.csproj",
+      "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.WEB/NS.EMS.WEB.csproj",
       "packagesPath": "/home/abhishek/.nuget/packages/",
-      "outputPath": "/home/abhishek/netsol/code/training/dotnet/EntityFramework/FirstProject/NS.EMS.WEB/obj/",
+      "outputPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.WEB/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/abhishek/.nuget/NuGet/NuGet.Config"
@@ -5018,7 +5096,20 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Buisness/NS.EMS.Buisness.csproj": {
+              "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Buisness/NS.EMS.Buisness.csproj"
+            },
+            "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj": {
+              "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Data/NS.EMS.Data.csproj"
+            },
+            "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj": {
+              "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/NS.EMS.Model.csproj"
+            },
+            "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj": {
+              "projectPath": "/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Repository/NS.EMS.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

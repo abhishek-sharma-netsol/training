@@ -13,3 +13,4 @@
 /home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/obj/Debug/netstandard2.0/NS.EMS.Model.dll
 /home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/obj/Debug/netstandard2.0/NS.EMS.Model.pdb
 /home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/obj/Debug/netstandard2.0/NS.EMS.Model.csprojAssemblyReference.cache
+/home/abhishek/netsol/git/training/dotnet/EntityFramework/FirstProject/NS.EMS.Model/bin/Debug/netstandard2.0/NS.EMS.Model.deps.json

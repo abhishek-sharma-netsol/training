@@ -27,5 +27,10 @@ namespace NS.EMS.Buisness
     {
       _IEmployeeRepo.Edit(id,employeeModel);
     }
+
+    public void Delete( int id, EmployeeModel employeeModel)
+    {
+      _IEmployeeRepo.Delete(id, employeeModel);
+    }
   }
 }
