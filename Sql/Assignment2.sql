@@ -15,7 +15,7 @@ Alter Table Employees Add Salary Decimal(10,2)
 
 Select top 5 * from Employees Order by 1 desc
 
-SELECT top 5 EmployeeName, EmployeeAge, From Employees order by EmployeeName 
+SELECT top 5 EmployeeName, EmployeeAge From Employees order by EmployeeName 
 
 select DISTINCT  DeptId, EmployeeName from Employees e  WHERE Salary > 18000
 

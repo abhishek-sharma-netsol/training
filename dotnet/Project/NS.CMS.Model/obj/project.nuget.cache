@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4T6zC5bvphJaaYcXsYF0oM4kR8MPkaUCmC0hDDgLlEeSvkueUeXNN3oowYuMU0IsMrU57dy4QoPaJg4WNn2+hQ==",
+  "success": true,
+  "projectFilePath": "/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/NS.CMS.Model.csproj",
+  "expectedPackageFiles": [
+    "/home/abhishek/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.2/microsoft.aspnetcore.app.ref.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

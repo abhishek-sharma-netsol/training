@@ -1,0 +1,44 @@
+@model List<NS.CMS.Data.Entities.Candidate>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+</head>
+<body>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Dob</th>
+        <th scope="col">Address</th>
+        <th scope="col">Mobile</th>
+        <th scope="col">Email</th>
+        <th scope="col">Tech</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach( var item in Model)
+      {
+      <tr>
+        <td scope="row">@item.Name</td>
+        <td>@item.Dob</td>
+        <td>@item.Address</td>
+        <td>@item.Mobile</td>
+        <td>@item.Email</td>
+        <td>@item.Tech</td>
+        <td>
+          <a asp-controller="Candidate" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
+          <a asp-controller="Candidate" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-secondary">Delete</a>
+        </td>
+      </tr>
+      }
+    </tbody>
+  </table>
+  <br>
+    @Html.ActionLink("Back to List", "Index")
+</body>
+</html>
