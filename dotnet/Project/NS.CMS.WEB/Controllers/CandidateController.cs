@@ -9,13 +9,16 @@ public class CandidateController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly ICandidateBuisness _ICandidateBuisness;
+    private readonly IWebHostEnvironment _hostEnvironment;
 
-    public CandidateController(ILogger<HomeController> logger, ICandidateBuisness ICandidateBuisness)
+    public CandidateController(ILogger<HomeController> logger, ICandidateBuisness ICandidateBuisness, IWebHostEnvironment hostEnvironment)
     {
         _logger = logger;
         _ICandidateBuisness = ICandidateBuisness;
+        this._hostEnvironment = hostEnvironment;
     }
 
+    // Index
     public IActionResult Index()
     {
       var res = _ICandidateBuisness.GetAllCandidates();
@@ -28,6 +31,8 @@ public class CandidateController : Controller
       return View(res);
     }
 
+
+    // Add New Candidate
     [HttpGet]
     public IActionResult Create() {
       return View();
@@ -36,11 +41,14 @@ public class CandidateController : Controller
     [HttpPost]
     public IActionResult Create(CandidateModel candidateModel)
     {
-      var res = _ICandidateBuisness.AddCandidate(candidateModel);
+      string currentPath = Environment.CurrentDirectory;
+      var res = _ICandidateBuisness.AddCandidate(candidateModel,currentPath);
       var result = _ICandidateBuisness.GetAllCandidates();
       return View("Index", result);
     }
-    
+   
+
+    // Edit A Candidate
     [HttpGet]
     public IActionResult Edit() {
       return View();
@@ -54,12 +62,15 @@ public class CandidateController : Controller
       return View("Index", result); 
     }
 
+
+    // Delete A Candidate
     public IActionResult Delete(int id, CandidateModel candidateModel)
     {
       var res = _ICandidateBuisness.Delete(id, candidateModel);
       var result = _ICandidateBuisness.GetAllCandidates();
       return View("Index", result); 
     }
+
 
     public IActionResult Privacy()
     {

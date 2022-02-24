@@ -16,10 +16,10 @@ namespace NS.CMS.Buisness
       return _ICandidateRepo.GetAllCandidates();
     }
 
-    public bool AddCandidate(CandidateModel candidateModel)
-    {
-      return _ICandidateRepo.AddCandidate(candidateModel);
+    public bool AddCandidate(CandidateModel candidateModel, string wwwRootPath){
+      return _ICandidateRepo.AddCandidate(candidateModel,wwwRootPath);
     }
+
 
     public bool Edit(int id, CandidateModel candidateModel)
     {

@@ -4,12 +4,15 @@ using NS.CMS.Data.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
-
 namespace NS.CMS.Repository
 {
   public class CandidateRepo: ICandidateRepo
   {
-    public List<Candidate>  GetAllCandidates(){
+   
+    
+    // Get All Candidates
+    public List<Candidate>  GetAllCandidates()
+    {
       using (var context = new CandidateDbContext() )
       {
          //var res = context.Candidates.FromSqlRaw("Select * from Candidates").ToList();
@@ -17,7 +20,8 @@ namespace NS.CMS.Repository
          return res;
       }
     }
-    
+   
+    // Get Candidate By Id
     public List<Candidate> GetCandidateById(int id)
     {
       var context = new CandidateDbContext();
@@ -26,24 +30,38 @@ namespace NS.CMS.Repository
       return result.ToList();
     }
 
-    public bool AddCandidate(CandidateModel candidateModel)
+    // Add a new Candidae
+    public bool AddCandidate(CandidateModel candidateModel, string currentPath)
     {
+      string fileName = Path.GetFileNameWithoutExtension(candidateModel.Image.FileName);
+      string fileExtension = Path.GetExtension(candidateModel.Image.FileName);
+
+      string imageName = fileName + DateTime.Now.ToString("yymmssff") + fileExtension;
+      string path = Path.Combine(currentPath + "/wwwroot/Image/", imageName);
+
+      using (var fileStream = new FileStream(path,FileMode.Create))
+      {
+        candidateModel.Image.CopyToAsync(fileStream);
+      }
+
       using (var context = new CandidateDbContext())
       {
-
         var Name = new SqlParameter("@Name", candidateModel.Name);
         var Dob  = new SqlParameter("@Dob", candidateModel.Dob); 
         var Address = new SqlParameter("@Address", candidateModel.Address); 
         var Mobile  = new SqlParameter("@Mobile", candidateModel.Mobile); 
         var Email   = new SqlParameter("@Email", candidateModel.Email); 
         var Tech    = new SqlParameter("@Tech", candidateModel.Tech); 
+        var Image   = new SqlParameter("@Image", path);
         
-        context.Database.ExecuteSqlRaw("UspInsertIntoCandidates @Name, @Dob, @Address, @Mobile, @Email, @Tech ", Name, Dob, Address, Mobile, Email, Tech );
+        context.Database.ExecuteSqlRaw("UspInsertIntoCandidates @Name, @Dob, @Address, @Mobile, @Email, @Tech, @Image ", Name, Dob, Address, Mobile, Email, Tech, Image);
       }
       return true;
 
     }
 
+
+    // Edit a Candit
     public bool Edit(int id, CandidateModel candidateModel)
     {
       using (var context = new CandidateDbContext())
@@ -64,6 +82,8 @@ namespace NS.CMS.Repository
       }
     }
 
+
+    // Delete a Candidate
     public bool Delete(int id, CandidateModel candidateModel)
     {
       using (var context = new CandidateDbContext())

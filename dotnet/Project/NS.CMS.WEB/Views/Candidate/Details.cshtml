@@ -12,6 +12,7 @@
   <table class="table">
     <thead>
       <tr>
+        <th scope="col">#</th>
         <th scope="col">Name</th>
         <th scope="col">Dob</th>
         <th scope="col">Address</th>
@@ -24,6 +25,7 @@
       @foreach( var item in Model)
       {
       <tr>
+        <td><img src="@item.Image" asp-append-version="true" width="250px" height="250px"/></td>
         <td scope="row">@item.Name</td>
         <td>@item.Dob</td>
         <td>@item.Address</td>

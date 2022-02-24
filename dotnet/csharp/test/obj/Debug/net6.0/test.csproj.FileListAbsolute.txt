@@ -1,0 +1,15 @@
+/home/abhishek/netsol/git/training/dotnet/csharp/test/bin/Debug/net6.0/test
+/home/abhishek/netsol/git/training/dotnet/csharp/test/bin/Debug/net6.0/test.deps.json
+/home/abhishek/netsol/git/training/dotnet/csharp/test/bin/Debug/net6.0/test.runtimeconfig.json
+/home/abhishek/netsol/git/training/dotnet/csharp/test/bin/Debug/net6.0/test.dll
+/home/abhishek/netsol/git/training/dotnet/csharp/test/bin/Debug/net6.0/ref/test.dll
+/home/abhishek/netsol/git/training/dotnet/csharp/test/bin/Debug/net6.0/test.pdb
+/home/abhishek/netsol/git/training/dotnet/csharp/test/obj/Debug/net6.0/test.csproj.AssemblyReference.cache
+/home/abhishek/netsol/git/training/dotnet/csharp/test/obj/Debug/net6.0/test.GeneratedMSBuildEditorConfig.editorconfig
+/home/abhishek/netsol/git/training/dotnet/csharp/test/obj/Debug/net6.0/test.AssemblyInfoInputs.cache
+/home/abhishek/netsol/git/training/dotnet/csharp/test/obj/Debug/net6.0/test.AssemblyInfo.cs
+/home/abhishek/netsol/git/training/dotnet/csharp/test/obj/Debug/net6.0/test.csproj.CoreCompileInputs.cache
+/home/abhishek/netsol/git/training/dotnet/csharp/test/obj/Debug/net6.0/test.dll
+/home/abhishek/netsol/git/training/dotnet/csharp/test/obj/Debug/net6.0/ref/test.dll
+/home/abhishek/netsol/git/training/dotnet/csharp/test/obj/Debug/net6.0/test.pdb
+/home/abhishek/netsol/git/training/dotnet/csharp/test/obj/Debug/net6.0/test.genruntimeconfig.cache

@@ -6,7 +6,7 @@ namespace NS.CMS.Repository
   public interface ICandidateRepo
   {
     public List<Candidate> GetAllCandidates(); 
-    public bool AddCandidate(CandidateModel candidateModel);
+    public bool AddCandidate(CandidateModel candidateModel, string wwwRootPath);
     public bool Edit(int id, CandidateModel candidateModel);
     public List<Candidate> GetCandidateById(int id);
     public bool Delete(int id, CandidateModel candidateModel);

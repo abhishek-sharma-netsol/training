@@ -9,6 +9,10 @@
   <ItemGroup>
     <ProjectReference Include="..\NS.CMS.Data\NS.CMS.Data.csproj" />
     <ProjectReference Include="..\NS.CMS.Model\NS.CMS.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
   </ItemGroup>
 
 </Project>

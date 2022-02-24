@@ -12,5 +12,6 @@ namespace NS.CMS.Data.Entities
         public string Mobile { get; set; } = null!;
         public string Email { get; set; } = null!;
         public string Tech { get; set; } = null!;
+        public string? Image { get; set; }
     }
 }

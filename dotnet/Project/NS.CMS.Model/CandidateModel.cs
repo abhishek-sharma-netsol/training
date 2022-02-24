@@ -1,4 +1,8 @@
+using Microsoft.AspNetCore.Http;
+
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+
 namespace NS.CMS.Model 
 {
   public class CandidateModel {
@@ -11,5 +15,8 @@ namespace NS.CMS.Model
     public string Mobile { get; set; } = null!;
     public string Email { get; set; } = null!;
     public string Tech { get; set; } = null!;
+
+    [DisplayName("Upload Image")]
+    public IFormFile Image { get; set; }
   }
 }
