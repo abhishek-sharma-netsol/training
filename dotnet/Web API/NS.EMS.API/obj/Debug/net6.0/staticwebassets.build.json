@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "62NgKjZzTT196z0jJfVkVoTXoCaUIHn5n1EfVxlTfMI=",
+  "Source": "NS.EMS.API",
+  "BasePath": "_content/NS.EMS.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

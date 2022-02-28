@@ -12,25 +12,33 @@ namespace NS.CMS.Buisness
       _ICandidateRepo = ICandidateRepo;
     }
 
+    // Get All Candidates
     public List<Candidate> GetAllCandidates(){
       return _ICandidateRepo.GetAllCandidates();
     }
 
-    public bool AddCandidate(CandidateModel candidateModel, string wwwRootPath){
-      return _ICandidateRepo.AddCandidate(candidateModel,wwwRootPath);
+    public List<Candidate> GetCandidateByName(string candidateName){
+      return _ICandidateRepo.GetCandidateByName(candidateName);
     }
 
-
-    public bool Edit(int id, CandidateModel candidateModel)
-    {
-      return _ICandidateRepo.Edit(id, candidateModel);
-    }
-
+    // Get Candidate By Id
     public List<Candidate> GetCandidateById(int id)
     {
       return _ICandidateRepo.GetCandidateById(id);
     }
 
+    // Add A Candidate
+    public bool AddCandidate(CandidateModel candidateModel, string wwwrootPath){
+      return _ICandidateRepo.AddCandidate(candidateModel,wwwrootPath);
+    }
+
+    // Edit A Candidate
+    public bool Edit(CandidateModel candidateModel,string wwwrootPath)
+    {
+      return _ICandidateRepo.Edit(candidateModel,wwwrootPath);
+    }
+
+    // Delete A Candidate
     public bool Delete(int id, CandidateModel candidateModel)
     {
       return _ICandidateRepo.Delete(id, candidateModel);

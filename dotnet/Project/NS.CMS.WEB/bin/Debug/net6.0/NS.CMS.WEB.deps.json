@@ -8,11 +8,14 @@
     ".NETCoreApp,Version=v6.0": {
       "NS.CMS.WEB/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.2",
           "Microsoft.EntityFrameworkCore.Design": "6.0.2",
           "NS.CMS.Buisness": "1.0.0",
           "NS.CMS.Data": "1.0.0",
           "NS.CMS.Model": "1.0.0",
-          "NS.CMS.Repository": "1.0.0"
+          "NS.CMS.Repository": "1.0.0",
+          "PagedList.Mvc": "4.5.0",
+          "System.Core": "3.5.21022.801"
         },
         "runtime": {
           "NS.CMS.WEB.dll": {}
@@ -397,6 +400,25 @@
           }
         }
       },
+      "PagedList/1.17.0": {
+        "runtime": {
+          "lib/net40/PagedList.dll": {
+            "assemblyVersion": "1.17.0.0",
+            "fileVersion": "1.17.0.0"
+          }
+        }
+      },
+      "PagedList.Mvc/4.5.0": {
+        "dependencies": {
+          "PagedList": "1.17.0"
+        },
+        "runtime": {
+          "lib/net40/PagedList.Mvc.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.0.0"
+          }
+        }
+      },
       "System.Buffers/4.5.0": {},
       "System.Collections.Immutable/6.0.0": {
         "dependencies": {
@@ -415,6 +437,7 @@
           }
         }
       },
+      "System.Core/3.5.21022.801": {},
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -899,6 +922,20 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
+    "PagedList/1.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ou6F3WKXh49hOo0TxWM+SkIGuKllYPuPPvnSYOlQ1sTrtuEyuDUhYbSJd5Sdb06i/sWUJZTjiUecEs3Ht/Hx3g==",
+      "path": "pagedlist/1.17.0",
+      "hashPath": "pagedlist.1.17.0.nupkg.sha512"
+    },
+    "PagedList.Mvc/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D0M4qW2g4a9cwG8ozIKUnJheCrm5GpFTceqUl63AXWaAVnTgk+TysZYUOGMsBRuzid8aF+/E8b0bXM6+90jiEw==",
+      "path": "pagedlist.mvc/4.5.0",
+      "hashPath": "pagedlist.mvc.4.5.0.nupkg.sha512"
+    },
     "System.Buffers/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -919,6 +956,13 @@
       "sha512": "sha512-/anOTeSZCNNI2zDilogWrZ8pNqCmYbzGNexUnNhjW8k0sHqEZ2nHJBp147jBV3hGYswu5lINpNg1vxR7bnqvVA==",
       "path": "system.configuration.configurationmanager/4.7.0",
       "hashPath": "system.configuration.configurationmanager.4.7.0.nupkg.sha512"
+    },
+    "System.Core/3.5.21022.801": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QPzEPxDOY7zdWl4hpGcTCuMiTZa83YER1MO99l3pbj+Rn3Wp47kCTJBEUsoYu1ohiUdxsbjVENNP77Qr1MLvZQ==",
+      "path": "system.core/3.5.21022.801",
+      "hashPath": "system.core.3.5.21022.801.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "type": "package",

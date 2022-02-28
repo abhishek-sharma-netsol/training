@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kWoRIZ078C0Kr7HNE7w2Kiy9NgrhQcjlnjtTrTnb4SvLShszdNuec25x3R4NdiE84j8YlVjPpT8GwgDiszw8sQ==",
+  "dgSpecHash": "bg6UQ/ADo/Y7yp3NrrociYDKHzUgccoySMVmLI6k7lfJFyig5MJa7AIncY2bGIQOXFrJRwjiOu78y98pTVGf2Q==",
   "success": true,
   "projectFilePath": "/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/NS.CMS.WEB.csproj",
   "expectedPackageFiles": [
@@ -49,9 +49,12 @@
     "/home/abhishek/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/home/abhishek/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/home/abhishek/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "/home/abhishek/.nuget/packages/pagedlist/1.17.0/pagedlist.1.17.0.nupkg.sha512",
+    "/home/abhishek/.nuget/packages/pagedlist.mvc/4.5.0/pagedlist.mvc.4.5.0.nupkg.sha512",
     "/home/abhishek/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/home/abhishek/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/abhishek/.nuget/packages/system.configuration.configurationmanager/4.7.0/system.configuration.configurationmanager.4.7.0.nupkg.sha512",
+    "/home/abhishek/.nuget/packages/system.core/3.5.21022.801/system.core.3.5.21022.801.nupkg.sha512",
     "/home/abhishek/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/home/abhishek/.nuget/packages/system.drawing.common/4.7.0/system.drawing.common.4.7.0.nupkg.sha512",
     "/home/abhishek/.nuget/packages/system.identitymodel.tokens.jwt/6.8.0/system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
@@ -68,5 +71,36 @@
     "/home/abhishek/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
     "/home/abhishek/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.2/microsoft.aspnetcore.app.ref.6.0.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PagedList 1.17.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "PagedList",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PagedList.Mvc 4.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "PagedList.Mvc",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Core 3.5.21022.801' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
