@@ -1,0 +1,46 @@
+body {
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 1.61;
+  background-color: #191919;
+  color: white;
+}
+
+.box-heading {
+  font-size: 35px;
+  line-height: 1.68;
+}
+
+.box-1 {
+  width: 550px;
+}
+
+/*Footer*/
+
+.container-fluid {
+  background-color: #141414;
+}
+
+.contact-info {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.infobigbearcom{
+  font-size: 14px;
+}
+
+.Follow-us {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.All-content-games {
+  font-size:12px;
+  letter-spacing: -0.3px;
+}
+
+/*All Right Reserved*/
+.All-Rights-Reserved {
+  font-size: 13px;
+}
