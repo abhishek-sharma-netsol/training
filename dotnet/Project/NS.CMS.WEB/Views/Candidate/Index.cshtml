@@ -49,6 +49,8 @@
             <th scope="col">#</th>
             <th scope="col">Name</th>
             <th scope="col">Options</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Date Of Birth</th>
           </tr>
         </thead>
         <tbody>
@@ -57,6 +59,8 @@
             <tr>
               <td scope="row">@item.Id</td>
               <td><a asp-controller="Candidate" asp-action="Details" asp-route-id="@item.Id">@item.Name</a></td>
+              <td>@item.Mobile</td>
+              <td>@item.Dob</td>
               <td>
                 <a asp-controller="Candidate" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal{@item.Id}">Delete</button>
